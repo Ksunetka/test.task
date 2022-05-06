@@ -1,0 +1,334 @@
+.span_color
+  color: $green
+  font-weight: 600
+.header
+  position: relative
+  z-index: 1
+  height: 80px
+  background: $light
+  border-bottom: 1px solid #e3e8e4
+  &_info
+    display: flex
+    justify-content: space-between
+    align-items: center
+    height: 80px
+  &_call
+    display: flex
+    flex-direction: column
+    margin-left: 11px
+  &_consultation
+    font-weight: 400
+    font-size: 10px
+    color: $gray
+  &_phone
+    font-weight: 500
+    font-size: 15px
+    color: $green_light
+  &_btn
+    width: 190px
+    height: 50px
+    background: $background_btn
+    box-shadow: 0px 10px 25px rgba(54, 152, 6, 0.3)
+    border-radius: 5px
+    border: none
+    font-weight: 700
+    font-size: 17px
+    color: $white
+    margin-left: 50px
+.promo
+  padding: 102px 0
+  min-height: 643px
+  background: $light
+  position: relative
+  z-index: 0
+  &_start
+    display: flex
+    flex-direction: column
+  &_title
+    font-weight: 600
+    font-size: 38px
+    line-height: 51px
+    span
+      color: $white
+      padding: 0px 8px
+      padding-bottom: 6px
+      border-radius: 9px
+      background-color: $green_light
+  &_desc
+    font-weight: 500
+    font-size: 21px
+    margin-top: 28px
+    line-height: 30px
+    color: $gray
+  &_end
+    display: flex
+    justify-content: flex-end
+    align-items: center
+  &_ellips
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 439px
+    height: 439px
+    background: #EEEEEE
+    border-radius: 100%
+  &_img
+    margin-top: 130px
+.btn
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  margin-top: 84px
+  &_width
+    width: 351px
+  &_help
+    width: 100%
+    height: 60px
+    background: $background_btn
+    box-shadow: 0px 10px 25px rgba(54, 152, 6, 0.3)
+    border-radius: 5px
+    border: none
+    font-weight: 700
+    font-size: 17px
+    color: $white
+  &_example
+    width: 269px
+    height: 60px
+    background: #EEF6E8
+    border-radius: 5px
+    border: none
+  &_img
+    max-width: 62px
+    width: 100%
+    height: auto
+    margin-bottom: 7px
+  &_text
+    width: 100%
+    font-weight: 600
+    font-size: 17px
+    color: $green
+  &_time
+    font-weight: 400
+    font-size: 13px
+    line-height: 20px
+    color: #898989
+    margin-top: 16px
+.advantage
+  padding: 50px 0
+  min-height: 527px
+  position: relative
+  z-index: 1
+  &_content
+    display: flex
+    justify-content: space-between
+.step
+  display: flex
+  flex-direction: column
+  align-items: start
+  padding: 30px 20px
+  &_number
+    width: 48px
+    height: 26px
+    background: #EEF6E8
+    border-radius: 20px
+    font-weight: 400
+    font-size: 17px
+    text-align: center
+    color: $green
+  &_title
+    font-weight: 600
+    font-size: 28px
+    line-height: 35px
+    margin: 0
+    margin-top: 10px
+  &_secret
+    display: none
+    font-weight: 400
+    font-size: 15px
+    line-height: 22px
+    color: $dark
+    margin-top: 15px
+  &_secret_img
+    display: none
+  &_list
+    display: flex
+    flex-direction: column
+    justify-content: start
+    align-items: start
+    margin-top: 30px
+  &_item
+    display: flex
+    margin-top: 15px
+  &_ellipse
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 22px
+    height: 22px
+    background: #F2F2F2
+    border-radius: 100%
+  &_text
+    font-weight: 400
+    font-size: 15px
+    line-height: 22px
+    color: $gray
+    margin-left: 15px
+.help
+  padding: 50px 0
+  min-height: 500px
+  &_bg
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 570px
+    min-height: 398px
+    background: $light
+    border-radius: 20px
+  &_slick
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  .slider
+    &_items
+      display: flex
+      flex-direction: column
+      justify-content: end
+      align-items: center
+      margin-right: 10px
+      position: relative
+      padding-top: 55px
+    &_arrow
+      display: flex
+      justify-content: flex-end
+      .slick_arrow i
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 60px
+        height: 60px
+        color: $gray
+        margin-left: 20px
+        background: $white
+        cursor: pointer
+        border-radius: 50%
+        border: 1px solid $green_light
+        &:hover
+          background: $green_light
+          color: $white
+  .card
+    display: flex
+    align-items: flex-end
+    padding: 70px 20px 20px 20px
+    width: 190px
+    height: 244px
+    background: #F6F9F6
+    border-radius: 20px
+    &_img
+      position: absolute
+      top: 0
+      z-index: 1
+      &:before
+        content: ''
+        display: block
+        position: relative
+        width: 30px
+        height: 30px
+        background: #62BF40
+        border: 4px solid #F6F9F6
+    &_title
+      margin-top: 0
+      margin-bottom: 5px
+      font-weight: 400
+      font-size: 15px
+      color: #000000
+    &_status
+      font-weight: 400
+      font-size: 13px
+      margin-top: 0
+      margin-bottom: 5px
+      &.online
+        color: $green_light
+      &.offline
+        color: #CFD8D1
+    &_text
+      font-weight: 400
+      font-size: 13px
+      color: $gray
+      list-style-type: none
+      padding-left: 0
+      margin-bottom: 0
+      li:before
+        content: "— "
+.offer
+  padding: 50px 0
+  &_container
+    width: 100%
+    min-height: 653px
+    background: $light
+    border-radius: 30px
+    padding: 60px
+    margin: 0
+    position: relative
+  &_title
+    font-weight: 600
+    font-size: 38px
+    line-height: 51px
+    color: $dark
+  &_desc
+    font-weight: 600
+    font-size: 28px
+    line-height: 35px
+    color: $dark
+    margin-top: 25px
+  .btn
+    margin-top: 42px
+  .block_position
+    position: relative
+    display: flex
+    justify-content: center
+  &_img
+    bottom: 40px
+    position: absolute
+.timer
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 366px
+  height: 198px
+  background: $white
+  border: 1px solid #E0E0E0
+  box-sizing: border-box
+  border-radius: 20px
+  margin-top: 35px
+  &_item
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 50%
+    padding-bottom: 35px
+    margin-left: 20px
+    margin-right: 20px
+  &_number
+    position: relative
+    margin: 0
+    width: 100%
+    font-weight: 600
+    height: 120px
+    text-align: center
+    font-size: 100px
+    background: $background_btn
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  &_minutes::after
+      content: ':'
+      position: absolute
+      right: -30px
+      font-weight: 600
+      font-size: 100px
+      background: linear-gradient(180deg, #66BC01 0%, #2F9C07 100%)
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
+  &_text
+    font-weight: 500
+    font-size: 24px
+    color: $green_light
